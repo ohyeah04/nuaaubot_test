@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('1252501384:AAGodt4oSf6X6EzvwyZr7ux265dKHve3NOo')
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
 keyboard1.row('Button1', 'Button2 hello2')
