@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('1252501384:AAGodt4oSf6X6EzvwyZr7ux265dKHve3NOo')
+bot = telebot.TeleBot('')
 
 ## main menu
 mainmenu = telebot.types.ReplyKeyboardMarkup(True, True)
