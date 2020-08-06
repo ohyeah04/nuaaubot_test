@@ -1,9 +1,11 @@
 import telebot
 
-bot = telebot.TeleBot('1252501384:AAGodt4oSf6X6EzvwyZr7ux265dKHve3NOo')
+bot = telebot.TeleBot('')
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
-keyboard1.row('Button1', 'Button2 hello2')
+keyboard1.row(['Online Orientation Week 2020'])
+keyboard1.row(['Two'])
+
 
 @bot.message_handler(commands=['start'])
 
